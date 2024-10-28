@@ -1,0 +1,110 @@
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topo {
+    background-color: rgb(1, 227, 227);
+    display: flex;
+    padding-left: 30px;
+}
+
+.logo img {
+    padding: 5px;
+    width: 150px;
+    margin-left: 200px;
+}
+
+.abas {
+    padding: 30px;
+    position: relative;
+    left: 700px;
+}
+
+.abas a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: large;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid #007575;
+    padding: 5px;
+}
+
+.texto {
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.texto p {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.tabelas {
+    margin: 0 auto;
+}
+
+.imgT {
+    width: 300px;
+    height: 270px;
+}
+
+.juntar {
+    display: flex;
+    margin-left: 200px
+}
+
+
+th {
+    background-color: rgb(1, 227, 227);
+    color: white;
+}
+
+td{
+    padding-left: 10px;
+}
+
+tr:nth-last-of-type(even) {
+    background-color: white;
+    color: #00000097;
+}
+
+tr:nth-last-of-type(odd) {
+    background-color: rgba(128, 128, 128, 0.548);
+    color: #00000097;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    height: 270px;
+}
+
+.rodape{
+    background-color: #007575;
+    position: relative;
+    top: 100px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape img{
+    width: 200px;
+}
